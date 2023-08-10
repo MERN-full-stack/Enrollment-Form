@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enrollment-Form</title>
+</head>
+<link rel="stylesheet" href="/CSS/style.css">
+<body>
+    <div class="container">
+        
+        <form id="student-form" action="">
+          
+            <h1 class="sub-heading">Student Details</h1>
+            <hr>
+            
+            <div class="form-input">
+            <label for="firstname" class="standard-label">
+                First Name
+                <input class="standard-input" name="firstname" id="firstname" type="text" placeholder="Enter your firstname" required>
+            </label><br>
+            </div>
+
+            <div class="form-input">
+             <label for="lastname" class="standard-label">
+                Last Name
+                <input class="standard-input" name="lastname" id="lastname" type="text" placeholder="Enter your lastname" required>
+            </label><br>
+            </div>
+            
+            <div class="form-input">
+        <label for="Reg-number" class="standard-label">
+            Register Number
+            <input class="standard-input" type="number" id="reg-no" name="reg-no"
+                placeholder="Enter your Register number" required>
+        </label><br>
+        </div>
+
+        <div class="form-input">
+        <label for="Mobile-number" class="standard-label">
+            Mobile Number
+            <input class="standard-input" type="tel" id="mob-no" name="mob-no" pattern='^\+?\d{10,12}'
+                placeholder="Enter your mob No" required>
+        </label><br>
+        </div>
+
+        <div class="form-input">
+        <label for="email-address" class="standard-label">
+            Email<span class="required">*</span>
+            <input class="standard-input" id="email-address" type="email" placeholder="Enter your email"
+                pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" required>
+        </label><br>
+        </div>
+
+        <div class="form-input">
+        <label for="cars">Gender:</label>
+        <select name="cars" id="cars">
+            <option value="volvo">Male</option>
+            <option value="saab">Female</option>
+            <option value="opel">Other</option>
+            
+        </select>
+        </div>
+
+        <div class="form-input">
+        <label for="department" class="standard-label">
+            Department
+            <input class="standard-input" name="department" id="department" type="text" placeholder="Enter your Department" required>
+        </label><br>
+        </div>
+
+        <div class="form-input">
+        <label for="Year" class="standard-label">
+            Year
+            <input class="standard-input" name="year" id="year" type="text" placeholder="Enter the year" required>
+        </label>
+        </div>
+
+        
+        <label>
+            <h4 class="language">Languages Known</h4>
+            <input type="checkbox" id="language1" name="language1" value="C programming">
+                        <span>C</span>
+        </label><br>
+        
+        
+        <label>
+            <input type="checkbox" id="language2" name="language2" value="C++">
+            <span>C++</span>
+        </label><br>
+
+        <label>
+            <input type="checkbox" id="language3" name="language3" value="java">
+            <span>Java</span>
+        </label><br>
+        
+        <label>
+            <input type="checkbox" id="language4" name="language4" value="pyhton">
+            <span>Python</span>
+        </label><br>
+
+        <label>
+            <h4 class="slot">Available Slot</h4>
+            <input type="radio" name="10am" value="time">10AM<br>
+            <input type="radio" name="2pm" value="time">2PM<br>
+            <input type="radio" name="5pm" value="time">5PM
+        </label><br>
+
+        <hr>
+        <h3>Upload Resume</h3>
+        <span>only in pdf format</span>
+        <input type="file" id="myFile" name="filename" ><br><br>
+        <input type="submit">
+
+
+
+
+        </form>
+</body>
+</html>

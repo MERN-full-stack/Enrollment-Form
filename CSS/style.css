@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    background-color: hsl(0, 0%, 98%);
+    color: #333;
+    font: 100% / normal sans-serif;
+
+}
+
+form{
+
+    padding: 50px;
+    background-color: ;
+    border: 10px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=text] {
+    padding: 10px;
+    margin: 10px 0;
+    appearance: none;
+        border: none;
+        outline: none;
+        border-bottom: .2em solid brown;
+        background: rgba(brown, .2);
+        border-radius: .2em .2em 0 0;
+        padding: .4em;
+        color: brown;
+}
+input[type=number] {
+    padding: 10px;
+    margin: 10px 0;
+    appearance: none;
+        border: none;
+        outline: none;
+        border-bottom: .2em solid brown;
+        background: rgba(brown, .2);
+        border-radius: .2em .2em 0 0;
+        padding: .4em;
+        color: brown;
+}
+
+input[type=tel] {
+    padding: 10px;
+    margin: 10px 0;
+    appearance: none;
+        border: none;
+        outline: none;
+        border-bottom: .2em solid brown;
+        background: rgba(brown, .2);
+        border-radius: .2em .2em 0 0;
+        padding: .4em;
+        color: brown;
+}
+
+input[type=email] {
+    padding: 10px;
+    margin: 10px 0;
+    appearance: none;
+        border: none;
+        outline: none;
+        border-bottom: .2em solid brown;
+        background: rgba(brown, .2);
+        border-radius: .2em .2em 0 0;
+        padding: .4em;
+        color: brown;
+}
+
+.form-input{
+    margin-bottom: 20px;
+}
+
+.container{
+    background-color: burlywood;
+    
+    
+}
+
+input[type="radio"] {
+    vertical-align: baseline;
+}
+
+ input[type=submit] {
+    appearance: none;
+        border: .2em solid brown;
+        background: hsl(0 0 0/0);
+        padding: .85em 1.5em;
+        color: brown;
+        border-radius: 2em;
+        transition: 1s;
+    
+        &:hover,
+        &:focus,
+        &:active {
+            background: brown;
+            color: #fff;
+        }
+ }
+
+ input[type=file]::file-selector-button {
+     margin-right: 20px;
+     border: none;
+     background:brown;
+     padding: 10px 20px;
+     border-radius: 10px;
+     color: #fff;
+     cursor: pointer;
+     transition: background .2s ease-in-out;
+ }
+ 
+ .sub-heading {
+
+    color: brown;
+
+ }
+
+ .language{
+    color: brown;
+ }
+
+ .slot{
+    color:brown;
+ }
+ 
+
+ 
