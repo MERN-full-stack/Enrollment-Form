@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enrollment-Form</title>
 </head>
-<link rel="stylesheet" href="/CSS/style.css">
+<link rel="stylesheet" href="/assets/style.css">
 <body>
     <div class="container">
         
@@ -53,11 +53,11 @@
         </div>
 
         <div class="form-input">
-        <label for="cars">Gender:</label>
-        <select name="cars" id="cars">
-            <option value="volvo">Male</option>
-            <option value="saab">Female</option>
-            <option value="opel">Other</option>
+        <label for="gender">Gender:</label>
+        <select name="gender" id="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="other">Other</option>
             
         </select>
         </div>
@@ -107,7 +107,7 @@
         </label><br>
 
         <hr>
-        <h3>Upload Resume</h3>
+        <h3 class="resume">Upload Resume</h3>
         <span>only in pdf format</span>
         <input type="file" id="myFile" name="filename" ><br><br>
         <input type="submit">
